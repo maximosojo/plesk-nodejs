@@ -1,0 +1,48 @@
+{
+  "name": "plesk",
+  "version": "1.0.0",
+  "description": "Plesk prueba",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app",
+    "doc": "apidoc -i controllers/ -o doc/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "plesk",
+    "node",
+    "nodejs",
+    "express"
+  ],
+  "author": "Máximo Sojo <maxsojo13@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@admin-bro/express": "^3.0.1",
+    "@admin-bro/sequelize": "^1.1.1",
+    "admin-bro": "^3.2.5",
+    "automapper-js": "^1.0.15",
+    "awilix": "^4.2.6",
+    "base64url": "^3.0.1",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-formidable": "^1.2.0",
+    "express-session": "^1.17.1",
+    "i18n": "^0.13.2",
+    "jwt-simple": "^0.5.6",
+    "moment": "^2.27.0",
+    "mysql2": "^2.1.0",
+    "nodemailer": "6.4.4",
+    "qrcode": "^1.4.4",
+    "sequelize": "^6.3.4",
+    "validatorjs": "^3.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "apidoc": {
+    "title": "API | Plesk",
+    "url": "https://plesk.com/api"
+  }
+}
